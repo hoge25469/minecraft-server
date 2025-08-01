@@ -69,3 +69,9 @@ docker run --rm ^
 - `%USERPROFILE%\.config\gcloud` は Linux/macOS の `$HOME/.config/gcloud` に対応。
 - `gcloud auth login` は必ずホスト OS 側で一度実行しておくこと。
 - `mc-deploy` は実行中に `server_setup.sh` をリモート実行し、Docker 上で Minecraft サーバーを起動する。
+
+## 今後追加したい機能（予定）
+
+- ワールドの**自動バックアップ**
+- **コンソールから直接コマンド入力**（rcon対応）
+- スクリプトの**設定簡略化**や**汎用性の向上**
