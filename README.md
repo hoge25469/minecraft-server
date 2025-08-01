@@ -1,4 +1,7 @@
 # りどみ
+⚠️ This project is a personal tool for learning and sharing among friends.
+⚠️ No guarantee, no support. Use at your own risk.
+
 Google Cloud Platform（GCP）の Compute Engine を利用して、Minecraft 1.10.2 サーバーを自動構築するためのツール。
 1コマンド実行するだけで、数分以内にサーバーが起動し、すぐにプレイ可能。
 
