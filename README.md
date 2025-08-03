@@ -59,10 +59,10 @@ docker build -t mc-deploy .
 ```
 ### 3. サーバーをデプロイ
 ```powershell
-docker run --rm ^
-  -v "%USERPROFILE%\.config\gcloud:/root/.config/gcloud" ^
-  -v "%cd%:/app" ^
-  -w /app ^
+docker run --rm `
+  -v "$env:USERPROFILE\.config\gcloud:/root/.config/gcloud" `
+  -v "${PWD}:/app" `
+  -w /app `
   mc-deploy
 ```
 #### 補足
