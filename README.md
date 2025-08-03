@@ -75,6 +75,23 @@ docker run --rm `
 ```
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
+
+### mc-rconの使い方
+```
+gcloud compute ssh minecraft-vm --zone=asia-northeast1-b
+```
+
+```
+sudo apt update
+sudo apt install git build-essential
+git clone https://github.com/Tiiffi/mcrcon.git ~/tools/mcrcon
+cd ~/tools/mcrcon
+```
+
+```
+mcrcon -H 127.0.0.1 -P 25575 -p MyS3cret\! "コマンドをここに書く"
+```
+
 ## 今後追加したい機能（予定）
 
 - ワールドの**自動バックアップ**
