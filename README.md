@@ -70,6 +70,11 @@ docker run --rm `
 - `gcloud auth login` は必ずホスト OS 側で一度実行しておくこと。
 - `mc-deploy` は実行中に `server_setup.sh` をリモート実行し、Docker 上で Minecraft サーバーを起動する。
 
+#### 外部ps1の実行許可コマンド
+以下のコマンドをpowershell（管理者特権不要）で実行してください。
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 ## 今後追加したい機能（予定）
 
 - ワールドの**自動バックアップ**
